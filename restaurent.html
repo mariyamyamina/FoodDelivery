@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant webpage</title>
+    <link rel="stylesheet" href="restaurent.css">
+</head>
+<body >
+    <div>
+    <h3>Share a Meal</h3>
+    <hr>
+    <form action="/form/submit" method="GET"> 
+      <input  type="text" name="text" class="search" placeholder="Search here!">
+      <input  type="submit" name="submit" class="submit" value="Search">
+    </form>
+    <div>
+
+      <div class="img-logo1" class="profile-container">
+        <img class="img-logo1" src="https://tse1.mm.bing.net/th?id=OIP.8pQGc1uvCGFkeniunEv1rwHaHa&pid=Api&P=0&h=180" alt="Profile Image" class="profile-image" id="profileImage"><br>
+        <div id="profilePage" class="profile-page"><br>
+            <h2>Mariyam Yamina M</h2>
+            <p>Email:yamina@gmail.com</p>
+            <p>Location:Tirunelveli</p>
+            <p>contact : 987658765</p>
+            <p>Address:4/20,Muslim New Street,<br>Seydunganallur</p>
+            <button onclick="document.location='login page.html'" class="btn">Log out</button>
+        </div>
+        <img class="img-logo2" src="https://tse2.mm.bing.net/th?id=OIP.hd6cAKPAERPHDbVUFWRbyAHaHa&pid=Api&P=0&h=180" alt="cart">
+    </div>
+    <!--
+      <img class="img-logo1" src="https://tse1.mm.bing.net/th?id=OIP.8pQGc1uvCGFkeniunEv1rwHaHa&pid=Api&P=0&h=180" alt="profile">
+      <img class="img-logo2" src="https://tse2.mm.bing.net/th?id=OIP.hd6cAKPAERPHDbVUFWRbyAHaHa&pid=Api&P=0&h=180" alt="cart">
+     -->
+    </div>
+
+    <script>
+      
+      const profileImage = document.getElementById('profileImage');
+      const profilePage = document.getElementById('profilePage');
+
+      
+      profilePage.style.display = 'none';
+
+      
+      profileImage.addEventListener('click', function () {
+          profilePage.style.display = 'block';
+      });
+
+    
+      profilePage.addEventListener('click', function () {
+          profilePage.style.display = 'none';
+      });
+  </script>
+
+    
+    
+
+       <div class="img-container" >
+          <h2>Best offers for you</h2>
+            <div  class="image">
+              <a href="file:///C:/Users/mariy/.vscode/offers.html"><img class="image" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/rng/md/carousel/production/36880e20ed2f7702e93da8f06d0c2c6a"></a>
+              <a href="file:///C:/Users/mariy/.vscode/offers2.html"><img class="image" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/rng/md/carousel/production/0bb309f06b88bc69bf7cca7ac03ce11c"></a>
+              <a href="file:///C:/Users/mariy/.vscode/offers3.html"><img class="image" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_850,h_504/rng/md/carousel/production/bacfa330da4d140c4c049d8beed9fdd6"></a>
+              </div>
+
+            <h2>What's on your mind?</h2>
+         <div class="mind">
+             <div class="mind-box">
+                  <a href="file:///C:/Users/mariy/.vscode/offers.html"><img class="mind-img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png"></a>
+             
+                </div>
+
+       <div class="mind-box" >
+           <a href="file:///C:/Users/mariy/.vscode/offers2.html"><img class="mind-img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli.png"></a>
+    
+           </div>
+
+     <div class="mind-box">
+         <a href="file:///C:/Users/mariy/.vscode/offers3.html"><img class="mind-img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Pure_Veg.png"></a>
+
+         </div>
+
+        <div class="mind-box" >
+             <a href="file:///C:/Users/mariy/.vscode/offers.html"><img class="mind-img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029860/PC_Creative%20refresh/3D_bau/banners_new/Sandwich.png"></a>
+
+        </div>
+
+       <div class="mind-box">
+            <a href="file:///C:/Users/mariy/.vscode/offers2.html"><img class="mind-img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Coffee.png"></a>
+      </div>
+
+         
+       <div class="mind-box">
+         <a href="file:///C:/Users/mariy/.vscode/offers.html"><img class="mind-img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pav_Bhaji.png"></a>
+       </div>  
+           
+         </div>
+
+           <h2>Restaurent with online delivery in Tirunelveli</h2> 
+           <div class="cover">
+              <div class="box">
+                   <a href="file:///C:/Users/mariy/.vscode/offers2.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xcxly59wiod9vyntj9jy"></a>
+                   <h3>Briyani Kingdom</h3>
+                   <p>Arabian,Briyani,Chinese,North..<br>Tirunelveli</p>
+              </div>
+
+              <div class="box">
+                <a href="file:///C:/Users/mariy/.vscode/offers.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/g8xoexoudmkjewpouyki"></a>
+                <h3>Hotel Sri</h3>
+                <p>Sounth indian,Idli,Dosa..<br>Vannarpettai</p>
+              </div>
+
+          <div class="box">
+            <a href="file:///C:/Users/mariy/.vscode/offers3.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fqy2z9nfvj14otla1lgi"></a>
+            <h3>MalaSri Food Card</h3>
+            <p>Burger,Snacks,American.<br>Vannarpettai</p>
+   
+         </div>
+
+       
+
+       <div class="box" >
+         <a href="file:///C:/Users/mariy/.vscode/offers2.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/avm2n9ofhrm7l3nz1pmi"></a>
+        <h3>Yamina Bakery</h3>
+        <p>Pastas,Desserts,Chinese..<br>Tirunelveli</p>
+      </div>
+
+
+       <div class="box">
+         <a href="file:///C:/Users/mariy/.vscode/offers3.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/dd05a4cf744d4637ad93aa99140612d6"></a>
+         <h3>Bake n Take</h3>
+         <p>Sweets,Chocolates,Cakes....<br>Tirunelveli</p>
+       </div>
+    </div>
+
+
+     
+    <div class="cover">
+      <div class="box">
+        <a href="file:///C:/Users/mariy/.vscode/offers2.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jev98qpqplji80veplhj"></a>
+           <h3>Wow Momo</h3>
+           <p>Momo,Chinese,Fries..<br>Tirunelveli</p>
+      </div>
+
+      <div class="box" >
+        <a href="file:///C:/Users/mariy/.vscode/offers2.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/af33b81798b11deba338e94b7585d348"></a>
+       <h3>Veggie Planet</h3>
+       <p>veg Shawarma,Fries,Pizza<br>Tirunelveli</p>
+     </div>
+
+     <div class="box">
+      <a href="file:///C:/Users/mariy/.vscode/offers3.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ndark0fnxqqwqdapooln"></a>
+    <h3>Juice Booster</h3>
+    <p>Juice,Milkshake,Ice Cream..<br>Vannarpettai</p>
+
+      </div>
+
+      <div class="box">
+        <a href="file:///C:/Users/mariy/.vscode/offers2.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/49c27c020e946f8f4fc13fdc9038525c"></a>
+          <h3>Briyani Love Shop</h3>
+          <p>Sounth indian,Briyani..<br>Vannarpettai</p>
+       </div>
+
+      <div class="box">
+        <a href="file:///C:/Users/mariy/.vscode/offers2.html"><img class="img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ii6ujrny6ghywh2pljwl"></a>
+            <h3>Canadian Crrunch</h3>
+           <p>Arabian,Briyani,Chinese,North..<br>Tirunelveli</p>
+            </div>
+         </div>
+
+      
+         
+       </div>
+       </div>
+
+    </form>
+    </div>
+</body>
+</html>

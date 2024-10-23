@@ -1,0 +1,77 @@
+.bg-container{
+     background-image: url("https://img.freepik.com/free-photo/top-view-food-frame-with-copy-space_23-2148723447.jpg?size=626&ext=jpg&ga=GA1.2.205810369.1691383548&semt=sph");
+     background-size: cover;
+     height: 100vh;
+     margin: 0px;
+     display: flex;
+     justify-content:right;
+    align-items: center;
+    font-size: 24px;
+}
+.username{
+    width:80%;
+    height:30px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: black;
+    padding:5px;
+}
+.bg-login{
+    background-color:white;
+    width:30vw;
+    height: auto;
+    margin:150px;
+    align-items: center;
+    justify-content: right;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.button{
+   width:80%;
+   height:45px;
+   border-style: solid;
+   
+   border-color: black;
+   background: rgb(84, 200, 239);
+   padding:5px;
+}
+
+.img{
+   height: 30px;
+   width:30px;
+   display:flex;
+   justify-content: center;
+   gap:10px;
+}
+
+.para{
+    font-size: 18px;
+}
+.align{
+    text-align: right;
+}
+.password{
+    display: flex;
+    justify-content: end;
+    font-size: small;
+    margin-right: 50px;
+}
+.side{
+    display: flex;
+    justify-content:start;
+    margin-left: 50px;
+}
+/*.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: rgb(247, 176, 148);
+    border-style: solid;
+    border-radius: 20px;
+    align-items: center;
+
+
+}*/

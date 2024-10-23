@@ -1,0 +1,72 @@
+.offers-img-container{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 253, 253);
+    background-size: auto;
+    height: auto;
+    width:60.5%;
+    margin:10px;
+    padding:5px;
+
+}
+body{
+    background-color:whitesmoke ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+form {
+    width: 400px;
+    
+}
+  
+input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+}
+
+.search {
+    width: 75%;
+  }
+  
+.submit {
+    width: 70px;
+    background-color: #1c87c9;
+    color: #ffffff;
+  }
+
+.text{
+    color:gray
+}
+.image{
+    height:100px;
+    width:auto;
+    display:flex;
+    justify-content:flex-start;
+    padding:2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap:5px;
+}
+#container {
+    display: flex;
+    align-items: center;
+}
+
+#container p {
+    margin-left: 1em;
+}
+.box {
+    width: 100px;
+    height: 40px;
+    margin-right: 350px;
+    margin-top: 30px;
+    border: 1px solid black;
+    align-items: center;
+    background-color: rgb(188, 226, 241);
+    position: absolute;
+    right: 0;
+    float: left;
+   
+}

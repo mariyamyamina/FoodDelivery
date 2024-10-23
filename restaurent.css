@@ -1,0 +1,143 @@
+.img-container{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    background-size: auto;
+    height: auto;
+    width:97.5%;
+    margin:10px;
+    padding:5px;
+
+}
+.image{
+    height:250px;
+    width: 95%;
+    display:flex;
+    justify-content:flex-start;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap:15px;
+    align-items: center;
+}
+body{
+    background-color:whitesmoke ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.cover{
+    width:100%;
+    height: auto;
+    /*background: #000;*/
+    display: flex;
+    justify-content: flex-start;
+}
+.box{
+    height: auto;
+    background-color:rgb(244, 244, 244);
+    margin:5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+.img{
+    width:250px;
+    height:180px;
+    border-radius: 18px;
+}
+.mind{
+    width:70%;
+    height: auto;
+    /*background: #000;*/
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.mind-img{
+    width:200px;
+    height:200px;
+    border-radius:100px;
+   
+}
+.mind-box{
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    margin:5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+form {
+    width: 400px;
+    
+}
+  
+input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+}
+
+.search {
+    width: 75%;
+  }
+  
+.submit {
+    width: 70px;
+    background-color: #1c87c9;
+    color: #ffffff;
+  }
+.img-logo1
+{
+    height: 30px;
+    width:30px;
+    display:flex;
+    justify-content:right;
+    gap:10px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    
+ }
+
+ .img-logo2
+{
+    height: 30px;
+    width:30px;
+    display:flex;
+    justify-content:right;
+    gap:10px;
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    
+ }
+ .logo{
+    top:0px;
+ }
+ .profile-container {
+    position: relative;
+}
+
+.profile-image {
+    cursor: pointer;
+}
+
+.profile-page {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+}
+.btn{
+    background-color: lightblue;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+
